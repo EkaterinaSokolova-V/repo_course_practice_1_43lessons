@@ -185,3 +185,9 @@ function availableCurr(arr, missingCurr) {
 }
 
 availableCurr([...baseCurrencies, ...additionalCurrencies], 'CNY');
+
+var arr = [ 5, 3, 4, 8, 6 ];
+var copy = [...arr];
+copy[0]=0;
+console.log(copy);
+console.log(arr);
